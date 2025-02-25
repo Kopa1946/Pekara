@@ -47,6 +47,30 @@ grid-area: sidebar_right;
 	grid-area:content;
 }
 
+.product-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+	gap: 20px;
+}
+.product-item {
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+.product-item img {
+	max-width: 100%;
+	height: auto;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 10px;
+}
+.product-item h3 {
+	margin: 0;
+	font-size: 1.1em;
+	color: #333;
+}
+
 .footer{
 	grid-area:footer;
 }

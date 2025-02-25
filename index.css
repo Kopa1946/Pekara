@@ -1,0 +1,254 @@
+@media only screen and (min-width:577px)
+{
+.sadrzaj{
+	display: grid;
+	grid-template-areas:'header header header header header' 
+	'content content content content content'
+	'content content content content content'
+	'content content content content content'
+	'content content content content content'
+	'footer footer footer footer footer';
+	grid-gap: 10px;
+	background-color: #2196F3;
+	padding: 10px;
+	min-height: 100vh;
+	height:fit-content;
+	min-width: 100vw;
+}
+
+.sadrzaj > div{
+	background-color: rgba(255,255,255,0.8);
+	text-align: center;
+	padding: 20px 0;
+	font-size: 20px;
+}
+
+.header{
+	grid-area:header;
+	height: fit-content;
+}
+
+.sidebar_left{
+	grid-area: siderbar_left;
+	display: grid;
+}
+
+.sidebar_left{
+	grid-area: sidebar_left;
+}
+
+.sidebar_right{
+display: grid;
+grid-area: sidebar_right;
+}
+
+.content{
+	grid-area:content;
+}
+
+.product-grid{
+	display:flex;
+    width:100%;
+}
+
+.product-item {
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+.product-item img {
+	max-width: 100%;
+	height:40%;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 10px;
+}
+.product-item h3 {
+	margin: 0;
+	font-size: 1.1em;
+	color: #333;
+}
+
+.footer{
+	grid-area:footer;
+}
+
+
+.footer {
+    background-color: #333;
+    color: #e71313;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+.footer-column {
+    flex: 1;
+    min-width: 150px;
+    margin: 10px;
+}
+.footer-column h3 {
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 10px;
+}
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-column ul li {
+    padding: 5px 0;
+}
+.footer-column ul li a {
+    color: #c70e0e;
+    text-decoration: none;
+}
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+}
+.subscribe-form input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+}
+.subscribe-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff6347;
+    color: #cc1a1a;
+    cursor: pointer;
+}
+
+ul{
+list-style-type: none;
+}
+
+p{
+	align-self: center;
+}
+
+.content{
+	
+	display:grid;
+}
+
+.content p{
+	align-content: center;
+}
+
+} /*Kraj min-width:576px*/
+
+@media only screen and (max-width:576px){
+.sadrzaj{
+	display: grid;
+	grid-template-areas: 'header header header header header' 
+	'content content content content content'
+	'content content content content content'
+	'content content content content content'
+	'content content content content content'
+	'footer footer footer footer footer';
+	grid-gap: 10px;
+	background-color: #2196F3;
+	padding: 10px;
+	align-items: stretch;
+	min-height: 100vh;
+	min-width: 100vw;
+	height: max-content;
+}
+
+.sadrzaj > div{
+	background-color: rgba(255,255,255,0.8);
+	text-align: center;
+	padding: 20px 0;
+	font-size: 20px;
+}
+
+.header{
+	grid-area:header;
+	height: fit-content;
+}
+
+.sidebar_left{
+	grid-area: siderbar_left;
+}
+
+.sidebar_right{
+
+display: grid;
+grid-area: sidebar_right;
+align-self: center;
+}
+
+.content{
+	grid-area:content;
+    width: 100%;
+}
+
+.footer{
+	grid-area:footer;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+.footer-column {
+    flex: 1;
+    min-width: 150px;
+    margin: 10px;
+}
+.footer-column h3 {
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 10px;
+}
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-column ul li {
+    padding: 5px 0;
+}
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+}
+.subscribe-form input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+}
+.subscribe-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff6347;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+ul{
+list-style-type: none;
+}
+
+
+} /*Kraj za max-width:576px*/
