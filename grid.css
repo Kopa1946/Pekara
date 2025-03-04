@@ -3,11 +3,11 @@
 .sadrzaj{
 	display: grid;
 	grid-template-areas: 'header header header header header' 
-	'sidebar_left content content content sidebar_right'
-	'sidebar_left content content content sidebar_right'
-	'sidebar_left content content content sidebar_right'
-	'sidebar_left content content content sidebar_right'
-	'sidebar_left content content content sidebar_right'
+	'sidebar_left content content content content'
+	'sidebar_left content content content content'
+	'sidebar_left content content content content'
+	'sidebar_left content content content content'
+	'sidebar_left content content content content'
 	'footer footer footer footer footer';
 	grid-gap: 10px;
 	background-color: #2196F3;
