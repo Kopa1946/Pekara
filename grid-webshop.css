@@ -3,11 +3,11 @@
 .sadrzaj{
 	display: grid;
 	grid-template-areas: 'header header header header header' 
-	'sidebar_left content content content content'
-	'sidebar_left content content content content'
-	'sidebar_left content content content content'
-	'sidebar_left content content content content'
-	'sidebar_left content content content content'
+	'content content content content content'
+	'content content content content content'
+	'content content content content content'
+	'content content content content content'
+	'content content content content content'
 	'footer footer footer footer footer';
 	grid-gap: 10px;
 	background-color: #2196F3;
@@ -70,6 +70,16 @@ grid-area: sidebar_right;
 	font-size: 1.1em;
 	color: #333;
 }
+
+.cart{
+	width: 10%;
+	height: 30%;
+}
+
+/*.kosara{
+
+}*/
+
 
 .footer{
 	grid-area:footer;
